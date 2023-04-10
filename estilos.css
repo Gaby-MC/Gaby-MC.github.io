@@ -1,0 +1,35 @@
+*{
+    margin: 10;
+}
+
+.contenedor{
+    background: cadetblue;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    height: 800px;
+    background-image: url("https://i.pinimg.com/564x/36/02/ca/3602ca745893317c17ce21a1c4efe3d7.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+p{
+    font-size: xx-large;
+    padding: 15%;
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+    border-radius: 50%;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
